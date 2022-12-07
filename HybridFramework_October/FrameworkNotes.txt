@@ -1,0 +1,17 @@
+Framework : 
+Data Driven, Keyword, POM --- Hybrid
+Automation Library -- Selenium
+Project --Maven Project
+Language -- Java
+Unit testing framework --TestNG
+Excel data reading -- Fillo (POI)
+Reporting -- Extent Report
+
+src/main/java -- All the code related to framework
+src/test/java -- all thhe code related to application and test cases
+
+TestData -- excel sheets
+Reports -- HTML Report
+pom.xml -- all jar files dependencies
+
+//Element[@attribute='attributevalue']

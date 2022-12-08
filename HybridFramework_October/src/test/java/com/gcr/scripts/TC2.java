@@ -13,6 +13,7 @@ import com.gcr.reuse.CommonFunctions;
 public class TC2 extends StartBrowser{
 	@Test
 	public void Login_LogoutTestCaseExcel() throws Exception {
+		// Login-Logout- TC
 		CommonFunctions cfs = new CommonFunctions();
 		ActionDriver ad = new ActionDriver();
 		Fillo f = new Fillo();

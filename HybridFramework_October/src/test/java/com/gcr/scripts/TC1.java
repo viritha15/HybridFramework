@@ -10,6 +10,8 @@ import com.gcr.reuse.CommonFunctions;
 public class TC1 extends StartBrowser{
   @Test
   public void Login_LogoutTestCase() throws Exception {
+	  
+	  //TC for Login-Logout
 	  CommonFunctions cfs = new CommonFunctions();
 	  ActionDriver ad = new ActionDriver();
 	  cfs.login();

@@ -13,5 +13,6 @@ public class NewTC1 extends StartBrowser{
 	  CommonFunctions cfs = new CommonFunctions();
 	  cfs.login();
 	  cfs.logout();
+	  //This is the test case for NewTC1
   }
 }

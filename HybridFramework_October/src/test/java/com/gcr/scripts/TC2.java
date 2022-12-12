@@ -26,6 +26,7 @@ public class TC2 extends StartBrowser{
 		//assertions always in test case
 		String actualTitle= ad.getTitle();
 		String expTitle="Swag Labs";
+		
 		//StartBrowser.childTest = StartBrowser.parentTest.createNode("Verify Title");
 		try {
 			Assert.assertEquals(actualTitle, expTitle);

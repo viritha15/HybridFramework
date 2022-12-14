@@ -20,7 +20,10 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <!-- put your configurations here -->
+                    <source>8</source>
+        <target>8</target>
+        <debug>true</debug>
+        <debuglevel>lines,vars,source</debuglevel> 
                 </configuration>
             </plugin>
             <plugin>
